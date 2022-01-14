@@ -112,7 +112,7 @@ ul li {
 }
 
 .image {
-  background-image: url(img/banner-top.jpg);
+  background-image: url(/img/banner-top.jpg);
   height: 100vh;
   width: 100%;
   background-position: center;
