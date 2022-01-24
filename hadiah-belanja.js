@@ -172,14 +172,90 @@ let y = 20;
 // data4(29, array5);
 
 // 6
-let array6 = ["data", "empat", 8, 3, 100, 8, 100, 3];
-function data5(c, array6, a) {
-  if (c + array6.length + a != 25) {
-    for (let i = 0; i < array6.length; i++) {
-      console.log(array6[i]);
-    }
-  } else {
-    console.log(false);
-  }
-}
-data5(10, array6, 7);
+// let array6 = ["data", "empat", 8, 3, 100, 8, 100, 3];
+// function data5(c, array6, a) {
+//   if (c + array6.length + a != 25) {
+//     for (let i = 0; i < array6.length; i++) {
+//       console.log(array6[i]);
+//     }
+//   } else {
+//     console.log(false);
+//   }
+// }
+// data5(10, array6, 7);
+
+// 2. Array : [ 3, 100, 283, 'saya', 'adalah', 'kapiten', 75 ]
+//             Array : [ 200, 300, 21, 'dari', indonesia ]
+//             jika array b + array b bukan 32,
+//             looping array with the condition
+//             print the array of string
+//             prtin the array of modulo = 1
+//             print the array of sum array a + array b
+//             else print boolean
+
+// 3. Array: [ 29, 12, 30, 'ini', 'saya', 85 ]
+//             Array: [ 'cyber', 'security', 20, 15, 21]
+//             jika ( panjang array ) + a = 28,
+//             looping array with the condition
+//             print the array of string
+//             print the array of sum array a + array b
+//             print the array of modulo = 0
+//             else print boolean
+
+// 4. Array: [ 20, 12, 43, 54, 24 ]
+//             Array: [ 'saya', 'adalah', 'seorang', 'pemusik', 0, 201]
+//             jika panjang array + 1 != 35,
+//             looping array with the condition
+//             print the array if the index modulo = 1
+//             print the array of string
+//             else print boolean
+
+// 5. Array: [ 20, 'empat', 'limat', 8, 29, 30 ]
+//             Array: [ 19, 'tujuh', 'sepuluh', 11, 23, 40 ]
+//             jika x + ( panjang array ) bukan 35,
+//             looping array with the condition
+//             print the array of sum array a + array b
+//             print the array of modulo = 0
+//             else print boolean
+
+// 6. Array: [ 'data', 'empat', 8 , 3, 100, 8, 100, 3  ]
+//             Array: [ 9, 7, 24, 'data', 'lima', 25]
+//             jika array a + array b + u bukan 25,
+//             looping array with the condition
+//             print the array of sum array a + array b
+//             print the array if the index modulo = 1
+//             else print boolean
+
+// 1. Array : [ 2, 5, 10, saya, 29, 99, 38 ]
+//             Array : [ 100, 3, 66, 20, 'abjad' ]
+//             jika panjang array a + array b < 50,
+//             looping array with the condition,
+//             print the array if the index modulo = 0
+//             print the array of sum array a + array b
+//             print the array of string in array a + array b
+//             else print boolean
+
+// 1
+// class Soal1 {
+//   constructor(arrayA, arrayB) {
+//     this.arrayA = arrayA;
+//     this.arrayB = arrayB;
+//     this.jumlahArray = this.arrayA + this.arrayB;
+//   }
+//   displayArray() {
+//     if (this.jumlahArray.length > 50) {
+//       for (let i = 0; i < this.jumlahArray.length; i++) {
+//         return this.jumlahArray[i];
+//       }
+//     } else {
+//       return false;
+//     }
+//   }
+// }
+// let HasilArray = new Soal1(
+//   [2, 5, 10, "saya", 29, 99, 38],
+//   [100, 3, 66, 20, "abjad"]
+// );
+// HasilArray.displayArray();
+// HasilArray.arrayA = [2, 5, 10, "saya", 29, 99, 38];
+// HasilArray.arrayB = [100, 3, 66, 20, "abjad"];
